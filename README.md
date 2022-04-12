@@ -1,6 +1,6 @@
 # web_mid_project
 
-My project is a simple login form, with a table listing previous logins. I did project using java language.
+My project is a simple login form, with a table listing previous logins. I did project using java language. And also I used PostgreSQL.
 
 And sorry for quality of my pictures! On my pc I don't have a tool or app to do screenshots.
 
