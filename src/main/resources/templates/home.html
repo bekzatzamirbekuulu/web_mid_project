@@ -1,0 +1,26 @@
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" >
+    <title>Title</title>
+</head>
+<body>
+<h1>Welcome to Home Page</h1>
+<h1 th:object="${user}" th:text="*{username}">!</h1>
+
+<table border="2">
+    <thead>
+        <tr>
+            <th>Username</th>
+            <th>Password</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr th:each="loginForm: ${users}">
+            <td th:text="${loginForm.username}"></td>
+            <td th:text="${loginForm.password}"></td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
